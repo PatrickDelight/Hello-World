@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<style>
+body{
+	background:#5AFF00;
+	color:#5500FF;
+}
+button{
+	width:200px;
+}
+#all-for-one{
+	width:500px;
+}
+</style>
+<html>
+<head><title>survey form</title></head>
+<body>
+	<h1 id="title" title="H1">SURVEY OF HUMAN BEHAVIOUR IN NIGERIA</h1>
+	<p id="description">This survey helps us to understand some of the behavioural characteristics of the people of Nigeria</p>
+<form id="survey-form action="#">
+<fieldset>
+<legend>PERSONAL INFO</legend>
+<label for="name" id="name-label">NAME:</label>
+<input type="text" placeholder="enter your name"  id ="name">
+<label for="email" id="email-label">EMAIL:</label>
+<input type="email" placeholder="----@email.com" id="email" ><br>
+<label for="number" id="number-label">NUMBER:</label>
+<input type="number" placeholder="00000000000" id="number" min="07000000000" max="08199999999">
+
+</fieldset>
+<fieldset>
+	<label for="religion">RELIGION</label>
+	<select id="religion">
+		<option></option>
+		<option>christianity</option>
+		<option>islam</option>
+		<option>traditional worshipper</option>
+		<option>agnostic</option>
+		<option>others</option>
+	</select>
+</fieldset>
+<fieldset>
+<legend>what id your nationality?</legend>
+<input type="radio" name="nationality" id="nigerian">
+<label for="nigerian">NIGERIAN</label>
+<input type="radio" name="nationality" id="non-nigerian">
+<label for="non-nigerian">NON-NIGERIAN</label>
+</fieldset>
+<fieldset>
+<legend>relationship status</legend>
+<input type="radio" name="relationship" id="married">
+<label for="married">MARRIED</label>
+<input type="radio" name="relationship" id="single">
+<label for="single">SINGLE</label>
+</fieldset>
+<fieldset>
+<legend>The below form helps to evaluate your character</legend>
+<input type="checkbox" name="personality" value="personality" id="caring">
+<label for="caring">caring</label><br>
+<input type="checkbox" name="personality" value="personality" id="kind">
+<label for="kind">kind</label><br>
+<input type="checkbox" name="personality" value="personality" id="honest">
+<label for="honest">honest</label><br>
+<input type="checkbox" name="personality" value="personality" id="disciplined">
+<label for="disciplined">disciplined</label><br>
+</fieldset>
+<input type="text" id="all-for-one" placeholder="additional comments">
+<button id="submit" type="submit" >SUBMIT</button>
+<input type="submit" value="sub">
+</form>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
